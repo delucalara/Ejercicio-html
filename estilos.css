@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1 {
+    color: aqua;
+    font-size: 60px;
+}
+.botonera {
+    width: 1200 px;
+    height: 90 px;
+    background-color: blueviolet;
+}
+#cabecera {
+    background-color: brown;
+    width: 1200 px;
+    height: 400 px;
+}
+header p {
+    font-size: 50 px;
+}
+.texto-principal  p{
+    color: blue;
+}
+.caja{
+    width: 260px;
+    height: 260px;
+    background-color: aquamarine;
+    padding top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 30px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+    margin-left:10px;
+    border-width: 2px;
+    border-style: dashed;
+    border-color: black;
+    box-sizing: border-box;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
