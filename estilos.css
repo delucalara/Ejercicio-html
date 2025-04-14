@@ -31,7 +31,7 @@ ul {
     justify-content:space-between;
     align-items:center;
 }
-.fotografia{
+.fotografia{ /*no pude resolver cómo subir la imagen para que me quede a la derecha de la info del cv, en un apartado*/
     display: flex;
     justify-content: right;
     padding-right: 40px;
