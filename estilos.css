@@ -25,20 +25,19 @@ header{
 ul {
     list-style-type: none;
     width:800px;
-    padding: 20p 0px;
-    margin: 50px;
+    padding: 0px;
+    margin left: 10px;
     display:flex;
     justify-content:space-between;
     align-items:center;
 }
-.fotografia{ /*no pude resolver cómo subir la imagen para que me quede a la derecha de la info del cv, en un apartado*/
+/*no pude resolver cómo subir la imagen para que me quede a la derecha de la info del cv, en un apartado*/
+.fotografia { 
+    width: 1280px;
+    height: auto;
     display: flex;
-    justify-content: right;
-    padding-right: 40px;
-}
-ul{
-    width: 800px;
-    display: flex;
-    justify-content: space-between;
+    flex-direction:row-reverse;
+    justify-content: first baseline;
     align-content: first baseline;
+    padding-right: 40px;
 }
