@@ -1,81 +1,44 @@
 @charset "utf-8";
 /* CSS Document */
 
-h1 {
-    color:#3f4a79;
-    font-size: 60px;
-    font-family: "Encode Sans Semi Expanded", sans-serif";
+body{
+    background-color: #f9d1e4;
+}
+header{
+    width: 1280px;
+    height:80px;
+    font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
-    font-weight: 600;
     font-style: normal;
-}
-.parrafo {
-    color:#3f4a79;
-}
-.botonera {
-    width: 1200 px;
-    height: 90 px;
-    background-color: #fdf3f8;
-}
-#cabecera {
-    background-color: #fdf3f8;
-    width: 1200 px;
-    height: 400 px;
-}
-header p {
-    font-size: 50 px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.texto-principal  p{
-    color: blue;
-}
-.caja{
-    height: 260px;
-    padding: 20px;
-    margin: 30px 0px 5px 10px;
-    border-width: 2px;
-    box-sizing: border-box;
-}
-*{
-    margin: 0px;
-    padding: 0px;
-}
-ol{
-    list-style-type: lower-latin;
- }
-ul{
-    list-style-type: none;
-}
-li{
-    padding-left: 0px;
-    display: inline block;
-    width: 200px;
-    height: 50px;
-    background-color: cadetblue ;
-    color: white;
-    margin: 20px;
-}
-.footer {
-    width: 1350px;
-    height: 58px;
-    background-color: #5f6d99;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
-/*de aca para abajo para probar flexbox */
-section	{
-    background-color: aqua;
-    width: 1200px;
-    height: 80px;
-    display: flex; 
-    justify-content: center;
-}
-section ul {
-    list style: none;
-    width: 500px;
-    border: 1px solid black;
+    color: #3f4a79;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+.parrafo{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    margin: 20px;
+    color: #3f4a79;
+}
+ul {
+    list-style-type: none;
+    width:800px;
+    padding: 20p 0px;
+    margin: 50px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.fotografia{
+    display: flex;
+    justify-content: right;
+    padding-right: 40px;
+}
+ul{
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-content: first baseline;
 }
